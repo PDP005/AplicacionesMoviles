@@ -1,0 +1,14 @@
+<div class="container">
+<h2>LISTADO DE PERSONAS</h2>
+<table class="table table-striped">
+    <thead>
+        <th>NOMBRE</th>
+        <th>Edad</th>
+    </thead>
+    <tr *ngFor="let p of lista">
+        <td>{{p.nombre}}</td>
+        <td>{{p.edad}}</td>
+    </tr>
+
+</table>
+</div>
