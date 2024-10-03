@@ -1,0 +1,9 @@
+<p>Info sobre {{nombre}}</p>
+<hr>
+Asignatura: {{asignatura}}
+<p *ngIf="nota>=5; else suspenso">
+    APROBADO
+</p>
+  <ng-template #suspenso>
+    SUSPENSO
+</ng-template>
