@@ -1,0 +1,16 @@
+<div>
+    <input  id="s" [(ngModel)]="nombre" placeholder="Arriba " />
+    <button (click)="agregarnombre()">añadir</button>
+    <button (click)="eliminarnombre()">borrar</button>
+
+    <ul *ngFor="let nombre of l_nombres">
+        {{nombre}}
+    </ul> 
+
+</div>
+
+
+
+<!-- <input input type="button" value="añadir" (click)="agregarnombre()"> -->
+
+
