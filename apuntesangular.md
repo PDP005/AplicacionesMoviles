@@ -76,6 +76,7 @@
     ```
 
     - Para mostrar los datos, utilizamos el directivo *ngFor de angular: `*ngFor="let l of lista (lista declarada en el .ts)"`
+        - `{{l.valorquequiero}}` 
     - Para llamar los datos:
         - Atributo: `[atributo]=l.propiedad`
         - InnerHTML: `{{l.propiedad}}`
