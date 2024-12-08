@@ -22,7 +22,8 @@
    - Entrar en app.routes.ts
      `{path: 'nombre-de-ruta', component:nombre-de-componente}`
    - Para rutas parametrizadas(RouterLink): `{path: 'nombre-de-ruta/:parámetro', component:nombre-de-componente}`
-
+   - Para que default se vaya a otra tura `    { path: '',redirectTo:'/la-ruta-que-queremos',pathMatch: 'full'},
+` 
    - En tu app.component.html, agregar un elemento: `<router-outlet></router-outlet>`
    - En imports de app.component.ts: `import {RouterOutlet} from ...` o `import {RouterModule}`
    - En los componentes donde usas el atributo `routerLink`, importar en el .ts del componente o su módulo: `import {RouterLink} from ...` o `import {RouterModule}`
