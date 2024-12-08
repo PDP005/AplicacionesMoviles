@@ -27,7 +27,8 @@
    - En tu app.component.html, agregar un elemento: `<router-outlet></router-outlet>`
    - En imports de app.component.ts: `import {RouterOutlet} from ...` o `import {RouterModule}`
    - En los componentes donde usas el atributo `routerLink`, importar en el .ts del componente o su módulo: `import {RouterLink} from ...` o `import {RouterModule}`
-
+   - Para que pase algún valor `    { path: 'pagina-queremos-pasar-valor/:el-valor', component: el-componente }
+`
 6. Servicios
    `ng g s carpetas/nombre-de-servicio`
    - Caso 1: datos hardcoded (los datos están escritos en el propio servicio)
