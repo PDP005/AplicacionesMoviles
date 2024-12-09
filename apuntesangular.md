@@ -138,9 +138,10 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Orden mi ej 
    1. Creo todo modulos, componentes, clases, servicios
-   2. Hago los imports correspondientes
-   3. Hago que el servicio lea el json
-   4. En el service el http lo importamos y en app.config.ts ponemos lo otro
-   5. En la clase.ts (copypaste) para recoger todos los valores
-   6. 
+   2. Importo el modulo en app.components.ts
+   3. Hago los imports correspondientes
+   4. Hago que el servicio lea el json
+   5. En el service el http lo importamos y en app.config.ts ponemos lo otro
+   6. En la clase.ts (copypaste) para recoger todos los valores
+   7. 
    
