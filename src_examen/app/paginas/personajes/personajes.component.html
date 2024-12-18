@@ -1,0 +1,59 @@
+<h4>MEDIA</h4>
+<div class="todo caja">
+    <div id="primero" class="caja"*ngFor="let q of prota" >
+        <img class="imagen" src="/img/{{q.img}}" >
+        <h5 class="card-title">{{q.name}}</h5>
+    </div>
+    <div id="cuerpo" >
+        
+        <table class="tabla">
+            <tr>
+                <td *ngFor="let i of listaPers">
+                    <div id="imagenes" class="caja"  (click)="info(i.uid)">
+                        <img src='/img/{{i.img}}' class="img" alt="..." >
+                        <div>
+                            <br>
+                            <h5 class="card-title" >{{ i.name }} </h5>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+<br>
+
+<h4>SUMARIO</h4>
+
+<div class="todo caja" *ngIf="actual != undefined">
+   
+            <div id="unosolo" >
+            
+            <h3 class="card-title">NAME: {{actual.uid}} </h3>
+            <table id="tSumario">
+            <tr>
+            <td>
+            <h5>DESCRIPTION: </h5>
+            <h5>GENDER: </h5>
+            <h5>BIRTH YEAR:</h5>
+            </td>
+            <td>
+          
+            <h5>EYE COLOR: </h5>
+            <h5>HAIR COLOR: </h5>
+            <h5>SKIN COLOR: </h5>
+            </td>
+            <td>
+             <h5>HEIGHT: </h5>
+            <h5>MASS: </h5>
+            <h5>HOMEWORLD: </h5>
+            </td>
+            </tr>
+            </table>
+
+            </div>
+           
+</div>
+<br><br>

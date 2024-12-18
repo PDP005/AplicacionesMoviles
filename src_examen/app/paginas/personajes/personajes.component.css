@@ -1,0 +1,67 @@
+h4 {
+    margin-left: 5%;
+    margin-top: 35px;
+}
+
+.caja {
+    box-shadow: 5px 5px 10px rgb(47, 46, 46);
+    border-radius: 10px;
+    border-color: black;
+    border-style: outset;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#primero {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 700px;
+    text-align: center;
+}
+
+#cuerpo {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+.tabla {
+    margin-left: 30px;
+    float: left;
+    position: relative;
+}
+
+#imagenes {
+    width: 300px;
+}
+
+.imagen {
+    width: 100%;
+    height: 400px;
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+}
+
+td {
+    float: left;
+    position: relative;
+    margin-top: 60px;
+    width: 400px;
+}
+
+#unosolo {
+    height: 150px;
+    padding: 3%;
+    margin-bottom: 70px;
+}
